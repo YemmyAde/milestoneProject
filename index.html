@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Movie Club</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="" class="logoImage">
+    </header>
+    <section>
+        <form onsubmit="event.preventDefault();" autocomplete="off">
+        
+           <input type="text" id="fName" class="data" placeholder="First Name" required> <br>
+
+           <input type="text" id="sName" class="data" placeholder="Surname" required><br>
+
+            <input type="text" id="age" class="data" placeholder="Age: in number" required><br>
+
+            <input type="text" id="cLevel" class="data" placeholder="Current Level" required><br>
+
+            <input type="text" id="fClub" class="data" placeholder="Favorite Club" required><br>
+
+            <button type="submit" class="submit" id="submit"> SUBMIT </button>
+
+        </form>
+    </section>
+    <div class="tableDiv">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th> ID </th>
+                    <th>First Name</th>
+                    <th>Surname </th>
+                    <th> Age</th>
+                    <th>Current Level</th>
+                    <th>Favorite Club</th>
+                    <th> Delete User</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        
+        </table>
+    </div>
+    <div style="height:20px"> </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

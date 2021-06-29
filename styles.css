@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    width:100%;
+    background-color: #e2eff0;
+    padding: 10px 10px;
+    text-align: center;
+}
+p{
+font-family: "EB Garamond", serif;
+font-size: 20px;
+}
+::placeholder{
+    font-family: "EB Garamond", serif;
+    font-size: 18px; 
+    color:black;
+    padding-left: 5px;
+}
+.logoImage{
+    height:70px;
+}
+form{
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    margin: 20px auto;
+}
+.data{
+    height: 40px;
+    width: 400px;
+    border: 2px solid  #e2eff0;
+    outline: none;
+    margin: 10px 0;
+}
+.submit{
+  border: 2px;
+  border-radius: 2px;
+  text-align: center;
+  height: 50px;
+  width: 100px;
+  background-color: #e2eff0;
+  font-family: "EB Garamond", serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.tableDiv{
+    text-align: center ;
+}
+table{
+    background-color: #e2eff0;
+    color: black;
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+th, td{
+ padding: 5px 15px;
+ border: 1px solid black;
+
+}
+
+.del{
+    /* border-style:none;
+    background-color: black;
+    color:#e2eff0;
+    font-family: "EB Garamond", serif;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 5px 7px;
+    margin: 5px 0; */
+    
+    background-color: #e2eff0;
+    color:black;
+    border: 1px solid black;
+    font-weight: bold;
+    font-family: "EB Garamond", serif;
+    font-size: 16px;
+    border-radius: 4px;
+    padding: 4px 6px;
+    margin: 5px 0;
+    cursor:pointer;
+}
